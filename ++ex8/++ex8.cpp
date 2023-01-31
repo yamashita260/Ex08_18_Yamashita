@@ -108,6 +108,7 @@ public:
 	}
 };
 
+
 void DisplayVolumeSurface(Solid* solid) {
 	cout << "体積 = " << solid->GetVolume() << endl;
 	cout << "表面積 = " << solid->GetSurface() << endl;
